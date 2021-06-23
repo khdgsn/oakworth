@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+
+body {
+   background-color: #66e3bb;
+   color: white;
+   display: grid;
+   margin: 0px;
+   padding: 0px;
+}
+
+/* HEADER */
+
+header {
+    background-image: url("C:/Users/Kathryn/Workspace/reactive-club/resources/images/banner.jpg");
+    width: auto;
+    height: 200px;
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#title {
+    display: block;
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    background-color: #66e3bb;
+    font-family: 'Cormorant Garamond', cursive;
+    font-style: italic;
+  }
+
+/* NAV BAR */
+
+.nav {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    font-size: 22px;
+    display: block;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    display: inline;
+    padding: 0px 40px 0px 40px;
+    font-family: 'Cormorant Garamond';
+    
+}
+
+.nav a {
+    color: #e89d7d;
+}
+
+/* BODY */
+
+#wel-container {
+    display: block;
+    text-align: center;
+    font-family: 'Cormorant Garamond';
+    
+}
+
+#wel-container h2 {
+    font-size: 35px;
+    text-decoration: underline
+}
+
+#wel-container p {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/* IMAGES */
+.img-container {
+    flex-wrap: wrap;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+}
+
+#img-one {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#img-two {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* QUOTE */
+#quote {
+    display: block;
+    background-color: #e89d7d;
+    width: auto;
+    margin: 50px 0px 50px 0px;
+    font-size: 30px;
+    font-family: 'Cormorant Garamond';
+    padding: 20px;
+}
+
+#quote p {
+    text-align: right;
+}
+
+/* FOOTER */
+footer {
+    padding-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-family: 'Cormorant Garamond';
+}
