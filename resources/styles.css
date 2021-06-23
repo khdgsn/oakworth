@@ -12,7 +12,7 @@ body {
 /* HEADER */
 
 header {
-    background-image: url("C:/Users/Kathryn/Workspace/reactive-club/resources/images/banner.jpg");
+    background-image: url("resources/images/banner.jpg");
     width: auto;
     height: 200px;
     background-position: left;
