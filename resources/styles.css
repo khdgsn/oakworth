@@ -12,7 +12,7 @@ body {
 /* HEADER */
 
 header {
-    background-image: url("/resources/images/banner.jpg");
+    background-image: url("C:/Users/Kathryn/Workspace/reactive-club/resources/images/banner.jpg");
     width: auto;
     height: 200px;
     background-position: left;
@@ -22,7 +22,7 @@ header {
 
 #title {
     display: block;
-    padding-top: 30px;
+    padding-top: 27px;
 }
 
 h1 {
@@ -39,7 +39,7 @@ h1 {
     list-style-type: none;
     overflow: hidden;
     text-align: center;
-    font-size: 22px;
+    font-size: 50px;
     display: block;
     flex-wrap: wrap;
 }
@@ -53,12 +53,7 @@ h1 {
 
 .nav a {
     color: #e89d7d;
-}
-
-@media only screen and (max-width: 320px) {
-    .nav-links {
-        font-size: 50px;
-    }
+    text-shadow: slategray;
 }
 
 /* BODY */
@@ -119,4 +114,22 @@ footer {
     text-align: center;
     line-height: 25px;
     font-family: 'Cormorant Garamond';
+}
+
+/* MEDIA */
+/* body */
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: skyblue;
+    }
+}
+
+/* nav */
+
+
+/* images */
+@media only screen and (max-width: 480px) {
+    .image {
+        padding: 60px;
+    }
 }
